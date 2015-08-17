@@ -1,10 +1,10 @@
 cinderdata:
-  image: kollaglue/centos-rdo-cinder-data:latest
+  image: kollaglue/centos-rdo-cinder-data:kilo
   name: cinderdata
   restart: on-failure
 
 cindervolume:
-   image: kollaglue/centos-rdo-cinder-volume:latest
+   image: kollaglue/centos-rdo-cinder-volume:kilo
    name: cinder-volume
    net: host
    privileged: true

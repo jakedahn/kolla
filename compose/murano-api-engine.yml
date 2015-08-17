@@ -1,6 +1,6 @@
 # NOTE(pbourke): no binary images for murano are available
 muranoapi:
-  image: kollaglue/centos-source-murano-api:latest
+  image: kollaglue/centos-source-murano-api:kilo
   name: murano-api
   restart: always
   net: "host"
@@ -8,7 +8,7 @@ muranoapi:
    - openstack.env
 
 muranoengine:
-  image: kollaglue/centos-source-murano-engine:latest
+  image: kollaglue/centos-source-murano-engine:kilo
   name: murano-engine
   restart: always
   net: "host"
